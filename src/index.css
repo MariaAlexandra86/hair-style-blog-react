@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: indianred !important;
+  color: whitesmoke;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
+
+.galery-image {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.container-about {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  background-color: indianred;
+  padding: 0.5rem;
+  color: white;
+}
+
+.text {
+  font-style: italic;
+  font-weight: bold;
+  color: #ffb1b2;
+  font-size: 30px;
+}
+
+.text2 {
+  font-style: italic;
+}
+
+.about-main-image {
+  width: 100%;
+  max-width: 600px;
+  float: right;
+}
+
+.galery-container>h1{
+  color:white;
+  text-align: center;
+}
+
+.text-muted {
+  color: #f3b1b1!important;
+}
+
+.contact-submit-button {
+  background-color: #572028;
+  border: indianred;
+}
+
+.contact-submit-button:hover {
+  border: #572028!important;
+  background-color: indianred!important;
+  border-width: 1px!important;
+  border-style: solid!important;
+}
+
+@media only screen and (max-width: 1024px){
+  img {
+    width: 100%;
+  }
+}
+

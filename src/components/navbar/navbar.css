@@ -1,0 +1,6 @@
+.navbar-transparent {
+    background: linear-gradient( to bottom, indianred 0, #210510 100%)!important;
+    box-shadow: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
