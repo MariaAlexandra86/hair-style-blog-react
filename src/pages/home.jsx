@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <div  style={{ maxWidth: "18rem" }}><CustomCarousel/></div>
       <div className="text">
-        Everything is for you!
+        Everything is for your hair !
       </div>
     </div>
   );
