@@ -39,8 +39,7 @@ const Contact = (props) => {
       }
     );
   }
-
-console.log(process.env)
+  
   return (
     <div className="d-flex flex-wrap align-items-center justify-content-center gap-3 ps-4 pe-4 w-100">
       <Form ref={formRef} onSubmit={(e) => { e.preventDefault(); handleFormSubmit();}}>
